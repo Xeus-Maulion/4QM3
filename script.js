@@ -7,7 +7,7 @@ function myFunction() {
         number = "The number is not positive."
     }
     else {
-        number = "Invalid number.";
+        number = "Invalid number. Please enter the NUMBER and not alphabetics and special keys.";
     }
     document.getElementById("demo").innerHTML = number;
 }
